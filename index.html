@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Denis Max — Dev & Guitarrista</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <div id="preloader">
+    <div class="pre-content">
+        <div class="pre-name">Denis<span>.</span></div>
+        <div class="pre-bar-wrap"><div class="pre-bar"></div></div>
+        <div class="pre-label">Carregando...</div>
+    </div>
+</div>
+
+    <!-- ─── HEADER ─── -->
+    <header>
+        <a href="#hero" class="logo">Denis<span>.</span></a>
+        <nav>
+            <ul>
+                <li><a href="#Sobre">Sobre</a></li>
+                <li><a href="#Projetos">Projetos</a></li>
+                <li><a href="#habilidades">Skills</a></li>
+                <li><a href="#Contatos">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ─── HERO ─── -->
+    <div id="hero">
+        <div class="bg-blob blob1"></div>
+        <div class="bg-blob blob2"></div>
+
+        <div class="hero-grid">
+            <div class="hero-text">
+                <p class="section-label fade-in">Desenvolvedor Front-End</p>
+                <h1 class="fade-in stagger-1">Denis<br><em>Max</em></h1>
+                <p class="tagline fade-in stagger-2">
+                    Construindo experiências na web com <strong>código limpo</strong> e design cuidadoso.
+                    Também guitarrista nas horas vagas.
+                </p>
+                <div class="hero-cta fade-in stagger-3">
+                    <a href="#Projetos" class="btn btn-primary">Ver projetos</a>
+                    <a href="#Contatos" class="btn btn-outline">Falar comigo</a>
+                </div>
+            </div>
+
+            <div class="hero-img-wrap fade-in stagger-2">
+                <div class="hero-img-frame">
+                    <img src="./src/img/denis.guita.jpeg" alt="Denis Max"
+                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="hero-img-placeholder" style="display:none;">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+                        </svg>
+                        <span>Foto de perfil</span>
+                    </div>
+                </div>
+                <div class="badge-floating badge-bottom-left">
+                    <span class="dot"></span>
+                    Disponível para projetos
+                </div>
+                <div class="badge-floating badge-top-right">
+                    🎸 Dev & Guitarrista
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ─── SOBRE ─── -->
+    <section id="Sobre">
+        <div class="sobre-grid">
+            <div class="sobre-text">
+                <p class="section-label fade-in">Quem sou</p>
+                <h2 class="section-title fade-in stagger-1">Olá, sou o Denis</h2>
+                <p class="fade-in stagger-2">
+                    Desenvolvedor de software apaixonado por transformar ideias em interfaces
+                    funcionais e bonitas. Estou no início da jornada no <strong>Front-End</strong>,
+                    mas já carrego muita dedicação e curiosidade.
+                </p>
+                <p class="fade-in stagger-3">
+                    Além do código, sou guitarrista — acredito que a criatividade da música
+                    influencia diretamente a forma como penso soluções em desenvolvimento.
+                </p>
+            </div>
+
+            <div>
+                <p class="section-label fade-in">Tecnologias</p>
+                <div class="skills-list fade-in stagger-1">
+                    <div class="skill-item">
+                        <label>HTML <span>Iniciante</span></label>
+                        <div class="skill-bar"><div class="skill-fill" data-width="0.60"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <label>CSS <span>Intermediário</span></label>
+                        <div class="skill-bar"><div class="skill-fill" data-width="0.72"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <label>JavaScript <span>Básico</span></label>
+                        <div class="skill-bar"><div class="skill-fill" data-width="0.40"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── PROJETOS ─── -->
+    <section id="Projetos">
+        <p class="section-label fade-in">O que construí</p>
+        <h2 class="section-title fade-in stagger-1">Projetos</h2>
+
+        <div class="projects-grid">
+            <div class="project-card fade-in stagger-1">
+                <span class="project-tag">HTML / CSS</span>
+                <h3>Portfólio Pessoal</h3>
+                <p>Primeiro site desenvolvido do zero estudando Front-End. Estrutura semântica em HTML5 com estilização CSS e foco em responsividade.</p>
+            </div>
+            <div class="project-card fade-in stagger-2">
+                <span class="project-tag">Em breve</span>
+                <h3>Próximo projeto</h3>
+                <p>Novos projetos chegando à medida que a jornada avança. Acompanhe meu LinkedIn para ser o primeiro a saber.</p>
+            </div>
+            <div class="project-card fade-in stagger-3">
+                <span class="project-tag">Em breve</span>
+                <h3>Explorando JS</h3>
+                <p>Estudo e experimentos com JavaScript vanilla, integrações e interatividade no Front-End.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── HABILIDADES ─── -->
+    <section id="habilidades">
+        <p class="section-label fade-in">Ferramentas</p>
+        <h2 class="section-title fade-in stagger-1">Habilidades & tecnologias</h2>
+
+        <div class="tech-grid">
+            <div class="tech-card fade-in stagger-1">
+                <div class="tech-name">HTML</div>
+                <div class="tech-level">Iniciante</div>
+                <p>Estruturas de páginas web semânticas e responsivas.</p>
+            </div>
+            <div class="tech-card fade-in stagger-2">
+                <div class="tech-name">CSS</div>
+                <div class="tech-level">Intermediário</div>
+                <p>Flexbox, Grid, animações e design responsivo.</p>
+            </div>
+            <div class="tech-card fade-in stagger-3">
+                <div class="tech-name">JavaScript</div>
+                <div class="tech-level">Básico</div>
+                <p>Scripts client-side para interações e dinamismo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ─── CONTATO ─── -->
+    <div id="Contatos">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <p class="section-label fade-in">Vamos conversar</p>
+                <h2 class="section-title fade-in stagger-1">Tem um projeto em mente?</h2>
+                <p class="fade-in stagger-2">Me chama por qualquer canal abaixo. Adoro bater papo sobre projetos web e novas ideias.</p>
+
+                <a href="mailto:denis@email.com" class="contact-link fade-in stagger-3">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="2" y="4" width="20" height="16" rx="2"/><path d="m2 7 10 7 10-7"/>
+                    </svg>
+                    denis@email.com
+                </a>
+                <a href="https://wa.me/5548991587921" target="_blank" class="contact-link fade-in stagger-4">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                    </svg>
+                    WhatsApp
+                </a>
+
+                <a href="https://linkedin.com/in/denis-max-oliveira-1b1710359" target="_blank" class="contact-link fade-in stagger-4">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                        <rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>
+                    </svg>
+                    LinkedIn
+                </a>
+
+                <a href="https://www.instagram.com/denismax.87" target="_blank" class="contact-link fade-in stagger-4">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="2" y="2" width="20" height="20" rx="5"/>
+                        <circle cx="12" cy="12" r="4"/>
+                        <circle cx="17.5" cy="6.5" r="0.5" fill="currentColor"/>
+                    </svg>
+                    Instagram
+                </a>
+            </div>
+
+            <form class="contact-form fade-in stagger-2" onsubmit="handleSubmit(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Nome</label>
+                        <input type="text" id="nome" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label>E-mail</label>
+                        <input type="email" id="email" placeholder="seu@email.com" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Telefone</label>
+                        <input type="tel" id="telefone" placeholder="(48) 9 9999-9999">
+                    </div>
+                    <div class="form-group">
+                        <label>Assunto</label>
+                        <select id="assunto">
+                            <option value="orcamento">Orçamento</option>
+                            <option value="duvida">Dúvida</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Mensagem</label>
+                    <textarea id="mensagem" placeholder="Conte um pouco sobre seu projeto..."></textarea>
+                </div>
+
+                <label class="form-check">
+                    <input type="checkbox" id="newsletter">
+                    <span>Quero receber novidades e atualizações</span>
+                </label>
+
+                <button type="submit" class="btn btn-primary btn-submit" id="submitBtn">Enviar mensagem →</button>
+                <p id="formMsg">✓ Mensagem enviada! Logo entro em contato.</p>
+            </form>
+        </div>
+    </div>
+
+    <!-- ─── FOOTER ─── -->
+    <footer>
+        <p>© 2025 Denis Max — Desenvolvido com HTML, CSS & JS</p>
+    </footer>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
